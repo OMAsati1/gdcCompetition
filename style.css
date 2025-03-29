@@ -113,6 +113,7 @@ ul {
     border-radius: 2rem;
     padding: 5px;
     font-size: 1.5rem;
+    box-shadow: 10px 10px 15px rgba(23, 12, 94, 0.3);
   }
 
   .grid-container {
@@ -248,14 +249,20 @@ ul {
   }
   .item:hover{
     transform: scale(1.1);
-    background-color: aqua;
+    background-color: rgb(76, 77, 77);
+    color: white;
   }
   .item p{
     font-size: 1.2rem;
     font-weight: 600;
   }
 
-  #heading{
-    margin: 2rem 36rem;
+  #domain{
+    display: flex;
+    gap: 1rem; 
+    margin: 1rem 33rem;
+  }
+
+  #domain h1{
     font-size: 4rem;
   }
