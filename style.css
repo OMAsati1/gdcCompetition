@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Eric Meyer’s Reset, there are more you can learn about*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+  }
+  
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+body {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    background-color: #121212;
+    color: #fff;
+    /* margin-left: 190px; */
+}
+
+.nav-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    gap: 64px;
+    list-style: none;
+}
+
+.nav-items {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-items:hover {
+    color:#0075ab;
+}
+
+.nav-items:active{
+    text-decoration: underline;
+    text-decoration-color: #0075ab;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    margin-top: 100px;
+    width: 700px;
+    height: auto;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 85px;
+    font-weight: 300;
+}
+
+.hero-text {
+    display: block;
+    font-size: 130px;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.bull {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-head, .contact-head {
+    margin-top: 200px;
+    font-size: 85px;
+    font-weight: 300;
+}
+
+.line {
+    margin-left: 45px;
+    background-color: #0075ab;
+    width: 180px;
+    height: 2px;
+}
+
+.line-2{
+    margin-left: 45px;
+    background-color: #0075ab;
+    width: 250px;
+    height: 2px;
+}
+
+.about-text, .contact-text {
+    max-width: 1000px;
+    margin-top: 70px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.skills, .contact-info {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skills-item {
+    width: 400px;
+    height: 80px;
+    background-color: #000;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+
+.skills-item-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bar {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 340px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.percent-figma {
+    width: 85%;
+    height: 3px;
+    background-color: #0075ab;
+}
+
+.percent-html {
+    width: 90%;
+    height: 3px;
+    background-color: #0075ab;
+}
+
+.percent-css {
+    width: 70%;
+    height: 3px;
+    background-color: #0075ab;
+}
+
+.percent-javascript {
+    width: 85%;
+    height: 3px;
+    background-color: #0075ab;
+}
+
+.percent-ux {
+    width: 83%;
+    height: 3px;
+    background-color: #0075ab;
+}
+
+.contact-content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-text{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right:150px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-bottom: 50px;
+}
+
+i {
+    font-size: 60px;
+    color: #fff;
+    margin: 10px;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
